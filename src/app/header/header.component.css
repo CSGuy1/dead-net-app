@@ -3,3 +3,33 @@ nav{
     border-color: black;
     height: 84px;
 }
+
+a h1{
+    color: #e7ef2c;
+    font-size: x-large;
+}
+
+button{
+    font-family: modestow01-mediumtextregular;
+    color: #010001;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a li{
+    font-family: modestow01-mediumtextregular;
+}
