@@ -1,0 +1,45 @@
+div{
+    background-color: #272727;
+}
+ul {
+    font-family: modesto-text, serif;
+    font-size: 18px;
+    margin: 0px,10px;
+    color: #FFFFFF;
+}
+
+ul li a.nav-link.active {
+    color: #FFFFFF;
+}
+ul li a.nav-link.active:hover {
+    color: #E7EF2D;
+}
+
+ul li a img{
+    margin: 62px, 31px;
+    padding: 62px, 31px;
+}
+
+ul li a.nav-link{
+    font-family: modesto-text, sans-serif;
+    font-size: 14px;
+    margin: 0px,10px;
+    color: #E7EF2D;
+}
+
+ul li a.nav-link:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul li a:link{
+    text-decoration: none;
+}
+
+ul li a:active{
+    text-decoration: none;
+}
+
+ul li a:visited{
+    text-decoration: none;
+}
