@@ -33,3 +33,12 @@ a:active{
 a li{
     font-family: modestow01-mediumtextregular;
 }
+
+a.nav-link{
+    color: #010001;
+}
+
+a.nav-link:hover{
+    background-color: #010001;
+    color: #FFFFFF;
+}
