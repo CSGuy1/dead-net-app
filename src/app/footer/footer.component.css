@@ -43,3 +43,13 @@ ul li a:active{
 ul li a:visited{
     text-decoration: none;
 }
+
+svg:hover {
+    fill: #E7EF2D;
+    background-color: #272727;
+}
+
+a.icon:hover {
+    color: #272727;
+    background-color: #272727;
+}
