@@ -1,16 +1,9 @@
-button.carousel-control-prev{
-    color: #000000;
-}
-
-button.carousel-control-prev:hover{
+button.carousel-control-prev span.carousel-control-prev-icon{
     color: #FFFFFF;
+    background-color: #000000;
 }
 
-button.carousel-control-next{
-    padding: 10px, 10px, 10px, 10px;
-    color: #000000;
-}
-
-button.carousel-control-next:hover{
+button.carousel-control-next span.carousel-control-next-icon{
     color: #FFFFFF;
+    background-color: #000000;
 }
