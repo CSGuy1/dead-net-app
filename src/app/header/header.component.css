@@ -1,7 +1,28 @@
-nav{
-    border-bottom-style: solid;
-    border-color: black;
-    height: 84px;
+nav.navbar{
+    height: 60px;
+}
+
+a.navbar-brand{
+    position: absolute;
+    left: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+nav.nav{
+    height: 60px;
+    position: absolute;
+    left: 500px;
+    width: 700px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+form.d-flex{
+    position: absolute;
+    left: 599px;
+    width: 300px;
+    padding-bottom: 60px;
 }
 
 a h1{
