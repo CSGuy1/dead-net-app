@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "dead-carousel",
@@ -7,5 +7,9 @@ import { Component } from "@angular/core";
 })
 
 export class CarouselComponent{
+    @Input() img: string;
 
+    constructor(){
+        this.img = "";
+    }
 }

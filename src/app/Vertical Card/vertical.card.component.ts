@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "dead-card-vertical",
@@ -7,5 +7,11 @@ import { Component } from "@angular/core";
 })
 
 export class VerticalCardComponent{
+    @Input() img: string;
+    @Input() description: string;
 
+    constructor(){
+        this.img = "";
+        this.description = "MISSING DESCRIPTION";
+    }
 }

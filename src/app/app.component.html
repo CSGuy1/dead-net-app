@@ -3,5 +3,13 @@
 <p></p>
 <p></p>
 <h1>NEW MUSIC</h1>
-<dead-card-vertical>Loading...</dead-card-vertical>
+
+<div class="container-fluid d-flex">
+    <div *ngFor="let product of products">
+        <dead-card-vertical class="mx-2" img={{product.img}} description={{product.description}}>
+            Loading...
+        </dead-card-vertical>
+    </div>
+</div>
+
 <dead-footer>Loading...</dead-footer>

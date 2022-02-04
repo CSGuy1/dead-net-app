@@ -1,7 +1,6 @@
 div {
     width: 30rem;
     padding: 10px;
-    left: 320px;
 }
 
 a {
@@ -12,4 +11,28 @@ a {
 a:hover {
     color: #fa00d0;
     text-decoration: none;
+}
+
+svg.bi.bi-camera-video-fill {
+    height: 25px;
+    width: 25px;
+    fill: currentColor;
+    position: absolute;
+    left: 220px;
+}
+
+svg.bi.bi-disc-fill {
+    height: 25px;
+    width: 25px;
+    fill: currentColor;
+    position: absolute;
+    left: 240px;
+}
+
+svg.bi.bi-sliders2-vertical {
+    height: 100px;
+    width: 100px;
+    fill: currentColor;
+    position: absolute;
+    left: 260px;
 }

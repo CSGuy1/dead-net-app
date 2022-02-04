@@ -1,0 +1,25 @@
+Main Features:
+    -Added mock_product_list.ts
+        --created a list for the vertical card components under the "New Music" section of the website.
+
+    -Added product-item.model.ts
+        --Implemented new TypeScript class called ProductItemModel
+            +Attributes: img and description
+            +Constructor for ProductItemModel
+            
+    -Updated vertical.card.component.ts
+        --Added img and description attributes with @Input() decorators
+        --Updated constructor to set img and description to default values
+
+    -Updated vertical.card.component.html
+        --Added bootstrap icons to the vertical card component as found on dead.net
+
+    -Reorganized assets folder to contain subfolders for images of each component on the website.
+
+    -Updated app.component.html to build <dead-card-vertical> components using an *ngFor loop.
+
+    -Updated app.component.ts 
+        --Added products attribute which is an empty ProductItemModel list.
+        --Added enhanced for loop to constructor to fill products attribute with the list items from mock_product_list.ts
+
+Bonus Features:
