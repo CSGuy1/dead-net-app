@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component'
 import { CarouselComponent } from './Carousel/carousel.component';
 import { VerticalCardComponent } from './Vertical Card/vertical.card.component';
+import { HorizontalCardComponent } from './Horizontal Card/horizontal.card.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { VerticalCardComponent } from './Vertical Card/vertical.card.component';
     HeaderComponent,
     FooterComponent,
     CarouselComponent,
-    VerticalCardComponent
+    VerticalCardComponent,
+    HorizontalCardComponent
   ],
   imports: [
     BrowserModule
