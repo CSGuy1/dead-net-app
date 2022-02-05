@@ -1,6 +1,7 @@
 div {
     width: 30rem;
     padding: 10px;
+    font-family: "mr-eaves-xl-modern",sans-serif;
 }
 
 a {
@@ -30,8 +31,8 @@ svg.bi.bi-disc-fill {
 }
 
 svg.bi.bi-sliders2-vertical {
-    height: 100px;
-    width: 100px;
+    height: 25px;
+    width: 25px;
     fill: currentColor;
     position: absolute;
     left: 260px;

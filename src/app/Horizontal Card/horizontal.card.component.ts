@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "dead-card-horizontal",
@@ -7,5 +7,11 @@ import { Component } from "@angular/core";
 })
 
 export class HorizontalCardComponent{
+    @Input() cardDate: string;
+    @Input() cardDescription: string;
 
+    constructor() {
+        this.cardDate = "Month Day, Year";
+        this.cardDescription = "MISSING DESCRIPTION";
+    }
 }
