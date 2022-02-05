@@ -13,7 +13,11 @@
 </div>
 
 <div class="news">
-    <dead-card-horizontal cardDate="January 30, 2022" cardDescription="A Dream We Still Dream: Further Explorations">Loading...</dead-card-horizontal>
+    <div *ngFor="let news of newsItems">
+        <dead-card-horizontal cardDate={{news.cardDate}} cardDescription={{news.cardDescription}}>
+            Loading...
+        </dead-card-horizontal>
+    </div>
 </div>
 
 <dead-footer>Loading...</dead-footer>

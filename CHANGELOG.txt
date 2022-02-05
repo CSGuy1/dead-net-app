@@ -1,3 +1,4 @@
+**LAB ASSIGNMENT 3**
 Main Features:
     -Added mock_product_list.ts
         --created a list for the vertical card components under the "New Music" section of the website.
@@ -23,3 +24,14 @@ Main Features:
         --Added enhanced for loop to constructor to fill products attribute with the list items from mock_product_list.ts
 
 Bonus Features:
+    -Added horizontal card component for news cards
+
+    -Added mock_news_list.ts
+        --created a list for the horizontal news card components under the "News" section of the dead.net website.
+
+    -Added news-item.model.ts
+        --Implemented new TypeScript class called NewsItemModel
+            +Attributes: cardDate and cardDescription
+            +Constructor for NewsItemModel
+
+    -Updated app.component.html to build <dead-card-horizontal> components using an *ngFor loop.
