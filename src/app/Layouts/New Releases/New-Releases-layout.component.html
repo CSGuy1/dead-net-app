@@ -14,14 +14,11 @@
 
 <div class="container">
     <div class="row align-items-start">
-        <div class="col">
-            One of three columns
-        </div>
-        <div class="col">
-            One of three columns
-        </div>
-        <div class="col">
-            One of three columns
+        <div *ngFor="let release of releases">
+            <dead-card-vertical class="mx-2" img={{release.img}} description={{release.description}}
+                price="{{release.price}}">
+                Loading...
+            </dead-card-vertical>
         </div>
     </div>
 </div>
