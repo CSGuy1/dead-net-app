@@ -2,14 +2,17 @@ nav.navbar{
     height: 60px;
 }
 
-a.navbar-brand{
+div.logo{
     position: absolute;
-    left: 10px;
+    left: 0px;
     width: 300px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 10px;
+    padding-bottom: 17px;
 }
 
-nav.nav{
+div.collapse.navbar-collapse{
     height: 60px;
     position: absolute;
     left: 500px;

@@ -11,18 +11,7 @@ import { ProductItemModel } from './Vertical Card/product-item.model';
 })
 export class AppComponent {
   title = 'dead-net-app-1';
-  products: ProductItemModel [] = [];
-  newsItems: NewsItemModel [] =[];
 
   constructor() {
-    for (var product of mock_product_list){
-      console.log(product);
-      this.products.push(product);
-    }
-
-    for (var news of mock_news_list){
-      console.log(news);
-      this.newsItems.push(news);
-    }
   }
 }
