@@ -1,6 +1,19 @@
 **LAB ASSIGNMENT 4**
 Main Features:
-    -
+    -Added Layout Components:
+        -- 7 inch Singles Collection
+        -- CD
+        -- Dave's Picks
+        -- Dead & Company
+        -- Digital
+        -- Home
+        -- LP
+        -- New Releases
+        -- Video
+    - Each layout has a set path in the app-routing.module.ts file
+    - Each link in the STORE tab under the Music section has a routingLink to the appropriate layout component
+    - Added secondary navbar and 3 default columns to New Releases layout component.
+    
 Bonus Features:
 
 **LAB ASSIGNMENT 3**
