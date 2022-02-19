@@ -1,0 +1,12 @@
+div.card{
+    font-family: "mr-eaves-modern", sans-serif;
+}
+
+p.card-text{
+    font-size: smaller;
+}
+
+p.card-price{
+    font-weight: bold;
+    font-size: smaller;
+}

@@ -1,0 +1,18 @@
+nav.navbar{
+    font-family: 'modestow01-mediumtextregular';
+    font-size: large;
+}
+
+a.navbar-item{
+    text-decoration: none;
+    color: #000000;
+}
+
+a.navbar-item:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+div.container{
+    padding: 5px;
+}

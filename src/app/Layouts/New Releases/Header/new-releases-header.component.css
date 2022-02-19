@@ -1,0 +1,38 @@
+nav.navbar{
+    border-bottom: 3px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+
+    padding-bottom: 23px;
+}
+
+li.nav-item{
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 13px;
+    position: relative;
+    left: 300px;
+}
+
+a.nav-link{
+    text-decoration: none;
+    color: #000000;
+    font-size: x-large;
+    font-family: 'modestow01-mediumtextregular';
+}
+
+a.nav-link:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+a.nav-link.dropdown{
+    text-decoration: none;
+    color: #000000;
+}
+
+a.nav-link.dropdown:hover{
+    text-decoration: none;
+    color: #000000;
+}

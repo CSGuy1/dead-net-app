@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { CDModel } from "./cd.model";
+import { cd_list } from "./cd_list";
 
 @Component({
     selector: "dead-cd",
@@ -7,5 +9,11 @@ import { Component } from "@angular/core";
 })
 
 export class CDLayoutComponent {
+    cds: CDModel[] = [];
 
+    constructor() {
+        for (var cd of cd_list) {
+            this.cds.push(cd);
+        }
+    }
 }

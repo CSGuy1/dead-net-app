@@ -1,1 +1,12 @@
-CD Layout Component!
+<new-releases-header>Loading...</new-releases-header>
+
+<div class="container">
+    <div class="row align-items-start">
+        <div *ngFor="let cd of cds" class="row">
+            <new-releases-vertical img={{cd.img}} title={{cd.title}} price={{cd.price}} description={{cd.description}}>
+            </new-releases-vertical>
+        </div>
+    </div>
+</div>
+
+<new-releases-footer>Loading...</new-releases-footer>

@@ -9,11 +9,9 @@ import { Component, Input } from "@angular/core";
 export class VerticalCardComponent {
     @Input() img: string;
     @Input() description: string;
-    @Input() price: string;
 
     constructor() {
         this.img = "";
         this.description = "MISSING DESCRIPTION";
-        this.price = "";
     }
 }

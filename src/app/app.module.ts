@@ -17,6 +17,9 @@ import { VideoLayoutComponent } from './Layouts/Video/video-layout.component';
 import { DavesPicksLayoutComponent } from './Layouts/Dave\'s Picks/daves-picks-layout.component';
 import { SevenInchSinglesCollectionComponent } from './Layouts/7 inch Singles Collection/singles-collection-layout.component';
 import { DeadAndCompanyLayoutComponent } from './Layouts/Dead & Company/dead-and-company-layout.compent';
+import { NewReleasesVerticalCardComponent } from './Layouts/New Releases/Vertical Card View/new-releases-vertical.component';
+import { NewReleasesHeaderComponent } from './Layouts/New Releases/Header/new-releases-header.component';
+import { NewReleasesFooterComponent } from './Layouts/New Releases/Footer/new-releases-footer.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { DeadAndCompanyLayoutComponent } from './Layouts/Dead & Company/dead-and
     VideoLayoutComponent,
     DavesPicksLayoutComponent,
     SevenInchSinglesCollectionComponent,
-    DeadAndCompanyLayoutComponent
+    DeadAndCompanyLayoutComponent,
+    NewReleasesVerticalCardComponent,
+    NewReleasesHeaderComponent,
+    NewReleasesFooterComponent
   ],
   imports: [
     BrowserModule,

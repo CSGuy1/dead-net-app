@@ -1,0 +1,23 @@
+div.container-fluid{
+    font-family: "mr-eaves-modern",sans-serif;
+    background-color: #272727;
+
+    border-top: 3px;
+    border-top-color: red;
+    border-top-style: solid;
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+a.nav-link{
+    color: #E7EF2D;
+    text-decoration: none;
+    background-color: #272727;
+}
+
+a.nav-link:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #272727;
+}
