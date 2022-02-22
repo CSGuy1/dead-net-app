@@ -1,0 +1,42 @@
+nav.navbar{
+    position: relative;
+    left: 20%;
+
+    font-weight: 700;
+    font-family: 'modestow01-mediumtextregular';
+    font-size: large;
+}
+
+ul.navbar-nav{
+    color: #000000;
+    text-decoration: none;
+}
+
+li.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li.nav-item.dropdown{
+    text-decoration: none;
+    color: #000000;
+}
+
+a.nav-link.active{
+    text-decoration: none;
+    color: #000000;
+}
+
+a.nav-link.active:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+a#navbarDropdown.nav-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+form{
+    padding-left: 15px;
+}

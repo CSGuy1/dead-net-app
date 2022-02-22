@@ -1,0 +1,59 @@
+div.container-fluid{
+    position: relative;
+    left: 15%;
+}
+
+button.btn{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: #00111d !important;
+    padding: 13px 75px;
+    border: none;
+    font-family: "mr-eaves-modern",sans-serif;
+    border-radius: 4px;
+    position: relative;
+    left: 42%;
+}
+
+button.btn:hover{
+    background-color: #ff008c !important;
+}
+
+a.btn-link{
+    color: #fffefd;
+    text-decoration: none;
+}
+
+a.btn-link:hover{
+    color: #fffefd;
+    text-decoration: none;
+}
+
+span.news-header{
+    position: relative;
+    left: 53%;
+}
+
+span.videos-header{
+    position: relative;
+    left: 15%;
+}
+
+div.features.row{
+    position: relative;
+    left: 17%;
+    padding-bottom: 10px;
+}
+
+h1.new-music-header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: modestow01-mediumtextregular;
+}
+
+h1.features-header {
+    position: relative;
+    left: 16%;
+}

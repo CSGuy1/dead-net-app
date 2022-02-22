@@ -17,22 +17,24 @@ li.nav-item{
 
 a.nav-link{
     text-decoration: none;
-    color: #000000;
+    color: #000000 !important;
     font-size: x-large;
     font-family: 'modestow01-mediumtextregular';
+    font-weight: 700;
 }
 
 a.nav-link:hover{
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF !important;
+    background-color: #272727;
 }
 
-a.nav-link.dropdown{
+a#navbarDropdown.nav-link.dropdown{
     text-decoration: none;
     color: #000000;
 }
 
-a.nav-link.dropdown:hover{
+a#navbarDropdown.nav-link.dropdown:hover{
     text-decoration: none;
     color: #000000;
 }

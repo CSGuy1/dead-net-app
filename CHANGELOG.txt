@@ -1,3 +1,14 @@
+**LAB ASSIGNMENT 5**
+Main Features:
+    - Implemented and cleaned up vertical card component, header, and secondary header for New-Releases layout.
+        -- Vertical card component is implemented with an *ngFor loop.
+    - Implemented and cleaned up Grateful Gear Banner, Features section, and video card components for Home layout.
+        -- Features section is implemented with an *ngFor loop.
+    - Cleaned up and formated original components for Home Layout
+Bonus Features:
+    - Added Horizontal card components to the CD layout.
+    - Added new footer component to the New-Releases layout
+
 **LAB ASSIGNMENT 4**
 Main Features:
     -Added Layout Components:

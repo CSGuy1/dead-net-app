@@ -20,6 +20,10 @@ import { DeadAndCompanyLayoutComponent } from './Layouts/Dead & Company/dead-and
 import { NewReleasesVerticalCardComponent } from './Layouts/New Releases/Vertical Card View/new-releases-vertical.component';
 import { NewReleasesHeaderComponent } from './Layouts/New Releases/Header/new-releases-header.component';
 import { NewReleasesFooterComponent } from './Layouts/New Releases/Footer/new-releases-footer.component';
+import { NewRelasesSecondaryHeader } from './Layouts/New Releases/Secondary Header/new-releases-secondary-header';
+import { GratefulGearBannerComponent } from './Layouts/Home/Grateful Gear Banner/grateful-gear-banner.component';
+import { VideoCardComponent } from './Layouts/Home/Video Card/video-card.component';
+import { HomeFeaturesComponent } from './Layouts/Home/Features/features-section.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,12 @@ import { NewReleasesFooterComponent } from './Layouts/New Releases/Footer/new-re
     DeadAndCompanyLayoutComponent,
     NewReleasesVerticalCardComponent,
     NewReleasesHeaderComponent,
-    NewReleasesFooterComponent
+    NewReleasesFooterComponent,
+    NewRelasesSecondaryHeader,
+    GratefulGearBannerComponent,
+    VideoCardComponent,
+    HomeFeaturesComponent,
+
   ],
   imports: [
     BrowserModule,

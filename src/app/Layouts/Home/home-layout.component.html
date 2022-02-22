@@ -3,7 +3,7 @@
 <dead-carousel>Loading...</dead-carousel>
 <p></p>
 <p></p>
-<h1>NEW MUSIC</h1>
+<h1 class="new-music-header">NEW MUSIC</h1>
 
 <div class="container-fluid d-flex">
     <div *ngFor="let product of products">
@@ -13,12 +13,42 @@
     </div>
 </div>
 
-<div class="news">
-    <div *ngFor="let news of newsItems">
-        <dead-card-horizontal cardDate={{news.cardDate}} cardDescription={{news.cardDescription}}>
-            Loading...
-        </dead-card-horizontal>
+<p></p>
+<button type="button" class="btn btn-lg"><a class="btn-link" routerLink="New-Releases">View All</a></button>
+
+<p></p>
+<p></p>
+
+<h1>
+    <span class="videos-header">Videos</span>
+    <span class="news-header">News</span>
+</h1>
+
+<div class="row">
+    <div class="col-7 d-flex">
+        <video-card></video-card>
+    </div>
+    <div class="news col-4">
+        <div *ngFor="let news of newsItems">
+            <dead-card-horizontal cardDate={{news.cardDate}} cardDescription={{news.cardDescription}}>
+                Loading...
+            </dead-card-horizontal>
+        </div>
     </div>
 </div>
+
+<p></p>
+<p></p>
+<h1 class="features-header">Features</h1>
+
+<div class="features row">
+    <div class="col-2 d-flex">
+        <div *ngFor="let feature of features">
+            <dead-features img={{feature.img}} date={{feature.date}}>Loading...</dead-features>
+        </div>
+    </div>
+</div>
+
+<grateful-gear-banner></grateful-gear-banner>
 
 <dead-footer>Loading...</dead-footer>
