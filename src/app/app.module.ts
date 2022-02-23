@@ -24,6 +24,8 @@ import { NewRelasesSecondaryHeader } from './Layouts/New Releases/Secondary Head
 import { GratefulGearBannerComponent } from './Layouts/Home/Grateful Gear Banner/grateful-gear-banner.component';
 import { VideoCardComponent } from './Layouts/Home/Video Card/video-card.component';
 import { HomeFeaturesComponent } from './Layouts/Home/Features/features-section.component';
+import { UsrInfoComponent } from './usr-info/usr-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -49,11 +51,13 @@ import { HomeFeaturesComponent } from './Layouts/Home/Features/features-section.
     GratefulGearBannerComponent,
     VideoCardComponent,
     HomeFeaturesComponent,
+    UsrInfoComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
