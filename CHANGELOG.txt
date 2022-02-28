@@ -1,3 +1,8 @@
+**LAB ASSIGNMENT 6**
+Main Features:
+    -Implemented a firebase realtime database in the usr-info folder of the dead-net app.
+    -Added the HTTPClientModule in app.module.ts.
+    
 **LAB ASSIGNMENT 5**
 Main Features:
     - Implemented and cleaned up vertical card component, header, and secondary header for New-Releases layout.
