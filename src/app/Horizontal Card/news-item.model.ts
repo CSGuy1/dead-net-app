@@ -1,9 +1,9 @@
 export class NewsItemModel {
-    cardDate: string;
-    cardDescription: string;
+    date: string;
+    description: string;
 
     constructor(date: string, description: string) {
-        this.cardDate = date;
-        this.cardDescription = description;
+        this.date = date;
+        this.description = description;
     }
 }

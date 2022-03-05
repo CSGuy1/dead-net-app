@@ -1,3 +1,13 @@
+**LAB ASSIGNMENT 7**
+Main Features:
+    - Created a service to retrieve the vertical cards used on the home layout.
+        - These cards are still displayed programmatically using the *ngFor loop.
+        - Service component is ./src/app/Vertical Card/home-layout.service.ts.
+
+Bonus Features:
+    - home-layout.service.ts now retrieves the news data from the firebase realtime database.
+    - home-layout.service.ts now retrieves the features data from the firebase realtime database.
+
 **LAB ASSIGNMENT 6**
 Main Features:
     -Implemented a firebase realtime database in the usr-info folder of the dead-net app.
