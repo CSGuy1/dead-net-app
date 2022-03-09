@@ -1,14 +1,6 @@
 {
   "hosting": [
     {
-      "public": "dist/dead-net-app-1",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
-    },
-    {
       "target": "dead-net-app-1",
       "public": "dist/dead-net-app-1",
       "ignore": [
