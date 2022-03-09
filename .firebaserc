@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dead-net-app"
+  },
+  "targets": {
+    "dead-net-app": {
+      "hosting": {
+        "dead-net-app-1": [
+          "dead-net-app"
+        ]
+      }
+    }
+  }
+}
