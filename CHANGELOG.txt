@@ -1,3 +1,10 @@
+**LAB ASSIGNMENT 8**
+Main Features:
+    - Created an Angular Fire database for the website
+    - Replaced HTTPClient with AngularFireDatabase for home-layout.service.ts
+    - Reimplemented service helper methods with AngularFireDatabase calls instead of HTTPClient calls.
+    - Deployed website to this URL: https://dead-net-app.web.app/
+
 **LAB ASSIGNMENT 7**
 Main Features:
     - Created a service to retrieve the vertical cards used on the home layout.
