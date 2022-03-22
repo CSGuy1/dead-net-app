@@ -10,6 +10,7 @@ import { VideoLayoutComponent } from './Layouts/Video/video-layout.component';
 import { DavesPicksLayoutComponent } from './Layouts/Dave\'s Picks/daves-picks-layout.component';
 import { SevenInchSinglesCollectionComponent } from './Layouts/7 inch Singles Collection/singles-collection-layout.component';
 import { DeadAndCompanyLayoutComponent } from './Layouts/Dead & Company/dead-and-company-layout.compent';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [
   { path: "", component: HomeLayoutComponent },
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: "Video", component: VideoLayoutComponent },
   { path: "Dave's Picks", component: DavesPicksLayoutComponent },
   { path: "7 inch Singles Collection", component: SevenInchSinglesCollectionComponent },
-  { path: "Dead & Company", component: DeadAndCompanyLayoutComponent }
+  { path: "Dead & Company", component: DeadAndCompanyLayoutComponent },
+  { path: 'admin', component: AddProductComponent }
 ];
 
 @NgModule({

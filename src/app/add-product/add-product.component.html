@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+                <button type="submit" class="btn btn-light">Add Product</button>
+            </form>
+        </div>
+    </div>
+</div>
