@@ -11,6 +11,7 @@ import { DavesPicksLayoutComponent } from './Layouts/Dave\'s Picks/daves-picks-l
 import { SevenInchSinglesCollectionComponent } from './Layouts/7 inch Singles Collection/singles-collection-layout.component';
 import { DeadAndCompanyLayoutComponent } from './Layouts/Dead & Company/dead-and-company-layout.compent';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   { path: "", component: HomeLayoutComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
   { path: "Dave's Picks", component: DavesPicksLayoutComponent },
   { path: "7 inch Singles Collection", component: SevenInchSinglesCollectionComponent },
   { path: "Dead & Company", component: DeadAndCompanyLayoutComponent },
-  { path: 'admin', component: AddProductComponent }
+  { path: 'admin', component: AddProductComponent },
+  { path: 'auth', component: AuthenticationComponent }
 ];
 
 @NgModule({
