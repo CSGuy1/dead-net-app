@@ -1,3 +1,9 @@
+**LAB ASSIGNMENT 9**
+Main Features:
+    - added 'admin' path to app-routing.midule.ts
+    - added add-product component
+        - Allows an admin to fill in a form to add data to the firebase dtatabase which will update the home page "New Releases" section.
+
 **LAB ASSIGNMENT 8**
 Main Features:
     - Created an Angular Fire database for the website
