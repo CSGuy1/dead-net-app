@@ -1,6 +1,13 @@
+**LAB ASSIGNMENT 10**
+Main Features:
+    - added 'auth' path to app-routing.module.ts
+    - added form to Login/Signup on website with authentication.component.html & authentication.component.ts
+    - added Authentication.service.ts so that my form to Login/Signup is able to communicate to the firebase server to register and login users.
+    - added authResponse.ts which is an interface which allows for the capture of the response from the database in the service.
+
 **LAB ASSIGNMENT 9**
 Main Features:
-    - added 'admin' path to app-routing.midule.ts
+    - added 'admin' path to app-routing.module.ts
     - added add-product component
         - Allows an admin to fill in a form to add data to the firebase dtatabase which will update the home page "New Releases" section.
 
